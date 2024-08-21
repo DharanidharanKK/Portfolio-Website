@@ -5,6 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Professional Profile</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -16,6 +33,7 @@
                 <ul>
                     <li><a href="#about">About</a></li>
                     <li><a href="#skills">Skills</a></li>
+                    <li><a href="#education">Education</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#contact">Contact</a></li>
                     <li><a href="https://github.com/DharanidharanKK" target="_blank">GitHub</a></li>
@@ -45,6 +63,42 @@
                 <li>HTML</li>
                 <li>CSS</li>
             </ul>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="container">
+            <h2>Education</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Education</th>
+                        <th>Institution</th>
+                        <th>Percentage/CGPA</th>
+                        <th>Year</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>10th Grade</td>
+                        <td>Venkatalakshmi Matriculation hr.sec School</td> <!-- Replace "School Name" with your actual school's name -->
+                        <td>70 </td> <!-- Replace XX with your actual 10th percentage -->
+                        <td>2020</td> <!-- Replace YYYY with your 10th completion year -->
+                    </tr>
+                    <tr>
+                        <td>12th Grade</td>
+                        <td>Venkatalakshmi Matriculation hr.sec School</td> <!-- Replace "School Name" with your actual school's name -->
+                        <td>70</td> <!-- Replace YY with your actual 12th percentage -->
+                        <td>2022</td> <!-- Replace YYYY with your 12th completion year -->
+                    </tr>
+                    <tr>
+                        <td>College (B.Tech)</td>
+                        <td>KPR Institute of Engineering and Technology</td> <!-- Replace "College Name" with your actual college's name -->
+                        <td>7.00</td> <!-- Replace ZZ.Z with your actual college CGPA -->
+                        <td>2026</td> <!-- Replace YYYY with your college completion year -->
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </section>
 
@@ -91,7 +145,7 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2024 Dharanidharan K K . All rights reserved.</p>
+            <p>&copy; 2024 Dharanidharan K K. All rights reserved.</p>
         </div>
     </footer>
 
